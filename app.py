@@ -5,7 +5,7 @@ import os
 import json
 import base64
 
-from openai import OpenAI
+import openai
 
 # utilsから必要な関数をimport
 from utils.embedding_utils import (
