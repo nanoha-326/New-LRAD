@@ -5,7 +5,8 @@ from openai import OpenAI
 import os
 
 def get_openai_client(api_key):
-    return OpenAI(api_key=api_key)
+    openai.api_key = api_key
+    return openai
 
 def get_embedding(text, client, model="text-embedding-3-small"):
     text = text.replace("\n", " ")
