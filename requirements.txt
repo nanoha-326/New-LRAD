@@ -7,3 +7,4 @@ google-auth
 matplotlib
 seaborn
 gspread
+numpy==1.26.4
