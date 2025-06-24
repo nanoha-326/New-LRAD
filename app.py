@@ -4,8 +4,7 @@ import numpy as np
 import os
 import json
 import base64
-
-import openai
+from openai import OpenAI
 
 # utilsから必要な関数をimport
 from utils.embedding_utils import (
